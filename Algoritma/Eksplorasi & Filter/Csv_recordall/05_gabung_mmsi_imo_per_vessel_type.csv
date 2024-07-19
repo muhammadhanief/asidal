@@ -1,0 +1,27 @@
+vessel_type,unique_mmsi,unique_imo
+Cargo,17470,17843
+Diving,94,53
+Dredging,313,256
+Fishing,5485,967
+HSC,443,353
+Law Enforcement,180,118
+Medical Transport,24,13
+Military,265,167
+Not Available,1283,394
+Other,2113,1644
+Passenger,1969,1570
+Pilot,228,119
+Pleasure Craft,2440,958
+Port Tender,180,83
+Reserved,1153,520
+Sailing,849,215
+SAR,108,58
+Ships Not Party to Armed Conflict,64,38
+Spare,114,80
+Tanker,8555,9154
+Towing,1413,586
+Tug,6351,1792
+UNAVAILABLE,299,90
+Unknown,20671,5580
+Vessel With Anti-Pollution Equipment,75,26
+WIG,567,445

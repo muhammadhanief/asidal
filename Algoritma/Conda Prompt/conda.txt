@@ -1,0 +1,1 @@
+jupyter notebook --GatewayClient.url=https://api.spotinst.io/ocean/spark/cluster/osc-b22517f3/notebook/ --GatewayClient.auth_token=1975d37ca762fd5c381b36086e6ed9a7feb0386622a40374165b137af0ede417 --GatewayClient.request_timeout=600
