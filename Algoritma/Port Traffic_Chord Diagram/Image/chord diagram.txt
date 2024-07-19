@@ -1,0 +1,21 @@
+step:
+1. filter pesan dg H3 (res: 4) yg sama dg H3 pelabuhan, buat kolom baru pelabuhannya apa
+2. filter mmsi unik per pelabuhan (memungkinkan?)
+3. sort berdasarkan mmsi & dt_pos_utc 
+4. for setiap mmsi: if dt_pos_utc port A < dt_pos_utc port B artinya
+   count from port A to port B
+
+ctt:
+1. tipe kapal (sekarang): fishing, dan cargo 
+2. tipe kapal (sisa): sailing, tanker, other, pleasure craft, passenger, port tender, 
+   dredging
+3. waktu (sekarang): satu bulan
+4. H3 (sekarang): res 8 (rata2 area: 0.737327598 km2 -> +- 2,5 km x 2,5 km), 
+   k-ring (k=1)
+
+masalah:
+1. kapal di pelabuhan pada waktu yg lama, batas waktu mengatakan itu bukan kunjungan 
+   yg sama berapa? ada kemungkinan mesin dimatikan sehingga kunjungan ke pelabuhan
+   selanjutnya tidak tercatat dan hanya mencatat kunjungan ke pelabuhan yg sama 
+2. kyknya kurang tepat pakai k-ring dengan k=1, mungkin k nya bukan 1? atau cari yg
+   menyelimuti bounding box
